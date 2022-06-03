@@ -514,6 +514,8 @@ services:
 
 ### MySQL ################################################
     mysql:
+      image: 'mysql/mysql-server'
+      platform: 'linux/arm64/v8'
       build:
         context: ./mysql
         args:
