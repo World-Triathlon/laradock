@@ -1354,7 +1354,7 @@ RUN set -eux; \
   # ping:
   ###########################################################################
   if [ ${INSTALL_PING} = true ]; then \
-    apt-get -yqq install inetutils-ping; \
+    apt-get -yqq install iputils-ping; \
   fi; \
   ###########################################################################
   # sshpass:
